@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css">
+        
+    
+    <title> Ella Nyan: The Other Part of Me </title> <!-- quizas solo Ella Nyan o solo The other part of me-->
+    <link rel="stylesheet" href="index.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
+
+<!--Eliminación transicion durante redimensión pantalla ¿Me rompe algo?-->
+
+<style>
+    .transition {
+        transition: all 0.3s ease;
+    }
+
+    .animation {
+        animation: example 1s ease infinite;
+    }
+
+    .no-animation *,
+    .no-transition * {
+        transition: none !important;
+        animation: none !important;
+    }
+</style>
+
+
+<!--Iconos-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="disable-hover" class="body-fixed"> 
+    <header id="hdr-prueba">
+        <!-- Este nav usarlo en otra página con sus estilos xq me quedó muy bien 
+        <nav id="nav-pcipal">
+            <div id="div-vr"> 
+            <ul id="ul-pcipal-i"> 
+                <li class="items" id="inicio"> <a href="#" class="a-verdadero">Inicio </a> </li>
+                <li class="items"> <a>Premios</a></li>
+                <li class="items"> <a>Programas</a></li>
+                <li class="items"> <a>Series</a></li>
+            </ul>
+            <ul id="ul-pcipal-d">
+                <li class="items"> <a>Cine</a></li>
+                <li class="items"> <a>Musica</a></li>
+                <li class="items"> <a>Publicidad</a></li>
+                <li class="items"> <a href="Teatro.html" class="a-verdadero">Teatro</a> </li>
+            </ul>
+            </div>
+        </nav>
+        -->
+        <div id="aextremoizq">
+            <figure id="afgr-logo-extr">
+                <a href="#"> <img src="foto/Estudian.png" alt="Logo" id="alogo-img"> </a>
+            </figure>
+        </div>
+            
+        <div id="extremoder">
+
+            <div id="seguime">
+                <h4>Follow me!</h4>
+            </div>
+
+            <div id="redes-arriba">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+            
+        </div>
+
+        <div id="nombre">
+        <h1>Ella <br> Nyan</h1>
+        </div>
+        <div id="div-fgr-marco">
+            <figure id="figure-marco"> <img src="foto/Marco-clavopr3.png" alt="Ella Nyan" id="marco-tit"> </figure>
+        </div>
+
+        <div id="lateral-izq">
+            <figure id="figure-señaladora"> 
+                <img src="foto/transparente2.png" alt="Interactive" id="señaladora">
+                <div id="conoceme">
+                    <div class="botones-ella"><a href="#talentitos" class="a-hdr-izq"> Talents? <br> Let's see! </a> </div> 
+                    <div class="botones-ella"><a href="#contenido-total-ptrn" class="a-hdr-izq"> News & <br> Extras! </a></div>    <!-- Interact... with me!-->
+                </div>      
+            </figure>    
+        </div>
+
+        <nav id="nav-falso">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul id="ul-falso">
+                    <li class="li-falso"> <a href="#articulo1" class="art"> Who am I?</a> </li>
+                    <li class="li-falso"> <a href="#articulo2" class="art">Childhood</a> </li>
+                    <li class="li-falso"> <a href="#articulo3" class="art">Hobbies</a> </li>
+                    <li class="li-falso"> <a href="#articulo4" class="art">My Career</a> </li>
+                    <li class="li-falso" id="desaparicion"> <a href="#talentitos" class="art">Talents? Let's see!</a> </li>
+                    <li class="li-falso" id="desaparicion"> <a href="#contenido-total-ptrn" class="art">News and Extras!</a> </li>      
+            </ul>
+        </nav>    
+
+        <div id="imitacion-lat-der">
+                <div id="Nombre" class="partes-cv">
+                    <span>Name</span>
+                    <p>Juanita Ramos Rodriguez</p>
+                </div>
+                <div id="Nacimiento" class="partes-cv">
+                    <span>Birth</span>
+                    <p>1 de Diciembre de 1990</p>
+                </div>
+                <div id="Lugar" class="partes-cv">
+                    <span>City</span>
+                    <p>Buenos Aires</p>
+                </div>
+                <div id="civil" class="partes-cv">
+                    <span>Civil Status</span>
+                    <p>Who knows?</p>
+                </div>
+                <div id="Prof" class="partes-cv">
+                    <span>Profession</span>
+                    <p>Actress. Model.</p>
+                </div>
+                <div id="Club" class="partes-cv">
+                    <span>Club</span>
+                    <p>Estudiantes de La Plata</p>
+                </div>
+                <div id="Firma">
+                    <signature> <figure id="firmitinha"> <img src="foto/firmita.png" alt="firma"></figure> </signature>
+                </div>
+            <figure id="figure-imitacion"> <img src="pseudoelementos/mujer.png" alt="CV" id="imagen-imitacion"></figure>
+        </div>
+
+
+        <div id="lateral-der"> 
+            <figure id="figencabezado">
+                <img src="pseudoelementos/mujer.png" alt="Profile" id="imagen1"> 
+            </figure>
+            <div id="div-cv">
+                <!-- poner strong y span o como hacer? -->  
+                <div class="elementos-cv">
+                    <span class="span1"> Name </span>
+                    <p class="p-hdr"> Juanita Ramos Rodriguez</p> 
+                </div>
+                <div class="elementos-cv">
+                    <span class="span1">Birth</span>
+                    <p class="p-hdr"> 1 de Diciembre del 1992</p>
+                </div>
+                <div class="elementos-cv">
+                   <span class="span1"> City </span>
+                    <p class="p-hdr"> Buenos Aires</p>
+                </div>
+                <div class="elementos-cv">
+                    <span class="span1"> Civil Status </span>
+                    <p class="p-hdr"> Who knows?</p>
+                </div>    
+                <div class="elementos-cv">
+                    <span class="span1"> Profession </span>
+                    <p class="p-hdr"> Actress. Model. Cantante. </p>
+                </div>
+                <div class="elementos-cv">
+                    <span class="span1"> Club </span>
+                    <p class="p-hdr"> Estudiantes de La Plata</p>
+                </div>
+            </div>
+            
+        </div>
+            
+        <div id="titular-hdr">    <!-- Otra mirada sobre mí /Another point of view // The other part of me-->
+            <h2 id="figcaption-header"><!--<a href="#"> --> The other part of me ♥ <!--</a>--></h2> <!-- ESTO Tiene que ser el único h2 o parte del h1-->
+        </div>
+
+        <footer class="apie-pagina">
+
+            <div class="agrupo-1">
+
+                <div class="abox" id="auno">
+                        <figure id="fgr-logo-extr">
+                            <a href="#">
+                                <img src="foto/Estudian.png" alt="Logo" id="logo-img">
+                            </a>
+                        </figure>
+                </div>
+
+                <div class="abox" id="ados">
+                    <h4>Professional Contact</h4>
+                    <p>direcciondemail@correo.com</p>
+                </div>
+
+                <div class="abox" id="atres">
+                    <h4>Follow me!</h4>
+                    <div class="ared-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+
+            </div>    
+        </footer>
+
+    </header>
+
+    <section id="seccion1queseacortasolo"> 
+        <div class="div-sect"> 
+            <h3 class="exhache2">  This is my life </h3>
+        </div>>        
+        <div>
+            <article id="articulo1" class="articulosizq">
+                <h4 class="h3-pag2left"> Who am I? </h4> 
+                <img src="foto/5.png" alt="Who am I" class="imagenespequeñasleft">
+                <figcaption class="figcaption-pag2">I'm Ella Nyan, <br> only a dutch girl </figcaption>
+                <div id="divsolucion"> 
+                    <p class="parrafospag2">Te cuento una tierna historia de quien soy para que te vincules conmigo.</p>
+                    <p class="parrafospag2">Cuando era niña aspiraba a ser astronauta, luego ya perdí el interés pero si que me gusta la astronomía ¡Ja!.</p>
+               </div>
+            </article>
+
+
+            <article id="articulo2" class="articulosder">
+                <h4 class="h3-pag2right">Childhood</h4>
+                <img src="foto/3.png" alt="Childhood" class="imagenespequeñasright">
+                <figcaption class="figcaption-pag2r"> I grow up in Milan, <br> graduated in Normal 3</figcaption>
+                <div id="divsolucion2"> 
+                    <p class="parrafospag2r">Suspendisse vehicula dolor vitae ex ullamcorper ullamcorper. Acá escribo más texto</p>
+                    <p class="parrafospag2">Curabitur sollicitudin volutpat magna non tincidunt.</p>
+                </div>
+            </article>
+
+
+            <article id="articulo3" class="articulosizq">
+                <h4 class="h3-pag2left">Hobbies</h4>
+                <img src="foto/6.png" alt="Hobbies" class="imagenespequeñasleft">
+                <figcaption class="figcaption-pag2">Me gusta modelar, cantar, bailar...</figcaption>
+                <div id="divsolucion3"> 
+                    <p class="parrafospag2">Curabitur sollicitudin volutpat magna non tincidunt.</p>
+                    <p class="parrafospag2">Quisque vitae nunc quis felis maximus tincidunt ac a mauris.</p>
+                </div>
+            </article>
+
+            <article id="articulo4" class="articulosder">
+                <h4 class="h3-pag2right">My Career</h4>
+                <img src="foto/7.png" alt="My Career" class="imagenespequeñasright">
+                <figcaption class="figcaption-pag2r">Me dedico a esto <br> y aquello</figcaption>
+                <div id="divsolucion4"> 
+                    <p class="parrafospag2r">Suspendisse vehicula dolor vitae ex ullamcorper ullamcorper.</p>
+                    <p class="parrafospag2">Quisque vitae nunc quis felis maximus tincidunt ac a mauris.</p>
+                </div>
+            </article>
+
+            <article id="articulo5" class="articulosizq">
+                <h4 class="h3-pag2left">My Future <!--o anecdota--></h4>
+                <img src="foto/8.png" alt="Anécdota" class="imagenespequeñasleft">
+                <figcaption class="figcaption-pag2">Hoy día, <br> intentando hacer Z </figcaption>
+                <div id="divsolucion5"> 
+                    <p class="parrafospag2">Quisque vitae nunc quis felis maximus tincidunt ac a mauris.</p>
+                    <p class="parrafospag2r">Suspendisse vehicula dolor vitae ex ullamcorper ullamcorper.</p>
+                </div>
+            </article>
+
+            </div>
+            <div class="clearfix"></div>
+    </section>
+
+    <section class="limpiarseccion2y3" id="talentitos">
+
+        <div id="div-talentito"> 
+            <h3 class="exhache2" id="mytalents"> Mis Talentos </h3>
+        </div> 
+
+        <div class="contenedor">
+            <main class="contenido-principal" id="centro-carrusel">
+                <img src="glider/img/womenwithcars-1680559050568-7166.png" alt="My Hidden Talents" class="contenido-principal__imagen" id="visible-escritorio">
+                    <div class="contenido-principal__contenedor">
+                    <h4 class="contenido-principal__titulo" id="algunostalentos"> Some of my Hidden Talents ☺ </h4> <!-- por que queda mejor Dome of the German Bundestag ??-->
+                    <img src="glider/img/womenwithcars-1680559050568-7166.png" alt="My Hidden Talents" class="contenido-principal__imagen" id="visible-celu">
+                    <p class="contenido-principal__resumen">
+                        <span> Creeme, no soy solo una chica </span>, me gustaría presentarte alguno de mis talentos ¿ocultos? Veni a conocerme un poco mejor.
+                    </p>
+                    <p class="contenido-principal__resumen">
+                        Fusce malesuada mollis ante, at elementum mi maximus nec. Praesent volutpat, tortor sed condimentum sagittis, mi diam fringilla.
+                    </p>
+                    </div>
+            </main>
+    
+            <div class="carousel">
+                <div class="carousel__contenedor">
+    
+                    <button aria-label="Anterior" class="carousel__anterior">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+    
+                    <button aria-label="Siguente" class="carousel__siguiente">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+    
+                    <div class="carousel__lista"> 
+                        <div class="carousel__elemento">
+                            <a href="https://www.youtube.com/embed/" class="videos">
+                                <img src="glider/img/26b.jpg" alt="cook">
+                            </a>
+                            <p>Cook</p>
+                        </div>
+    
+                        <div class="carousel__elemento"> 
+                            <a href="https://www.youtube.com/embed/" class="videos">
+                                <img src="glider/img/25b.jpg" alt="dance">
+                            </a>
+                            <p>Dance</p>
+                        </div>
+    
+                        <div class="carousel__elemento">
+                            <a href="https://www.youtube.com/embed/" class="videos">
+                                <img src="glider/img/20b.jpg" alt="fashion">
+                            </a>
+                            <p>Fashion</p>
+                        </div>
+    
+                        <div class="carousel__elemento"> 
+                            <a href="https://www.youtube.com/embed/" class="videos">
+                                <img src="glider/img/21b.jpg" alt="gaming">
+                            </a>
+                            <p>Gaming</p>
+                        </div>
+    
+                        <div class="carousel__elemento">
+                            <a href="https://www.youtube.com/embed/" class="videos">
+                                <img src="glider/img/23b.jpg" alt="laugh">
+                            </a>
+                            <p>Laugh</p>
+                        </div>
+    
+                        <div class="carousel__elemento"> 
+                            <a href="https://www.youtube.com/embed/" class="videos">
+                              <img id="video7" src="glider/img/27b.jpg" alt="play">
+                            </a>
+                            <p>Play</p>
+                        </div>
+                          
+                        <div class="carousel__elemento">
+                            <a href="https://www.youtube.com/embed/" class="videos">
+                              <img id="video8" src="glider/img/18b.jpg" alt="travel">
+                            </a>
+                            <p>Travel</p>
+                        </div>                        
+    
+                        <div class="carousel__elemento" id="sing">
+                            <a href="https://www.youtube.com/embed/" class="videos">
+                                <img src="glider/img/11b.jpg" alt="sing">
+                            </a>
+                            <p>Sing</p>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div role="tablist" class="carousel__indicadores"></div>
+
+            </div> 
+              
+        </div>
+       
+                              
+        <div id="popup"></div>
+ 
+    </section>
+
+    <!-- <section class="limpiarseccion2y3" id="interactua">
+        <div id="interactuadiv"> 
+            <h3 id="interactuatit"> Interactuá conmigo </h3>
+        </div>
+            <div id="question-contenedor">
+                <form id="question-form">
+                    <div id="titular-form">
+                        <h3 id="titular"> ¡Preguntame!</h3>
+                        <span id="descrip"> no soy solo una chica. </span>
+                    </div>
+
+                    <div>
+                        <label for="name" class="estamentos">Nombre:</label>
+                        <input type="text" name="name" required placeholder="Nombre" class="cajasdetexto">
+                    </div>
+
+                    <div>
+                        <label for="question" class="estamentos"> Pregunta:</label>
+                        <textarea name="question" required placeholder="Quiero preguntarte o decirte" class="cajasdetexto"></textarea>
+                    </div>
+                    <button type="submit">Enviar pregunta</button>
+                </form>
+            </div>
+
+          <div id="answer-section">
+            <h4>Respuestas</h4>
+            <div id="answer-container"></div>
+
+          </div>
+
+        <div id=articleconteiner> 
+
+          <article class="respuestasformul">
+                <span> te hago una pregunta? </span>
+                <div class="respuestas">
+                    <p> sjkdfmnimsd  </p>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>   
+                </div>
+          </article>
+
+          <article class="respuestasformul">
+                <span> te hago una pregunta? </span>
+                <div class="respuestas">
+                    <p> tutututuutu </p>
+                </div>
+          </article>
+
+          <article class="respuestasformul">
+                <span> te hago una pregunta? </span>
+                <div class="respuestas">   
+                    <p> tuqui </p>
+                </div> 
+          </article>
+
+          <article class="respuestasformul">
+                <span> ¿Cuantos años tenés? </span>
+                <div class="respuestas">
+                    <p> Eso no se pregunta. </p>
+                </div>
+          </article>
+
+        </div>
+
+          <div class="clearfix"></div>
+    
+    </section> 
+
+    -->
+    
+    <section id="ultm-sect">
+        <h3 id="News-and-Extras">News and Extras!</h3>
+        
+        <div id="izqr-ultm">
+            <div id="arriba-dbj">
+                <h4 class="ttls-izqr-ultm" id="h4-dbj"> Dibujo de la semana</h4>
+                <figure class="fgr-ultm-sect" id="fgr-dbj"> 
+                    <img src="foto/dibujos-casa.png" alt="dibujo de la semana" id="semana-img">
+                    <figcaption class="figcap-ultm-sct"> La casa en la que viví por 12 años ♥ </figcaption>
+                </figure>
+            </div>
+
+            <div id="abajo-vd">
+                <h4 class="ttls-izqr-ultm" id="tit-vd">Youtube Channel</h4>
+                <figure class="fgr-ultm-sect" id="fgr-vd"> 
+                    <a href="https://www.youtube.com/watch?v=BrKHko20GLA&t=125s" target="_blank">
+                        <img src="foto/yt.png" alt="new content" id="nuevo-contenido">
+                    </a>
+                    <img src="foto/new0.png" alt="New" id="icono-nuevo1">
+                    <figcaption class="figcap-ultm-sct"> Bucarest,<br> buscando un restaurante.</figcaption>
+                </figure>
+            </div>
+        </div>
+
+      
+        <div id="contenido-total-ptrn">
+                <div id="ttlr-ptr">
+                    <h3 id="tit-ptrn">Make Patreon!</h3>
+                    <span id="spn-sesion">A sample of my photosets</span>
+                </div>
+
+                <div id="contenido-ptr">
+                    <figure class="fgr-ptrn" id="fgr1"> 
+                        <figcaption class="figcap-prtn">Violet (Evergarden)</figcaption>
+                        <img src="pseudoelementos/violet.png" alt="Violet Evergarden" class="img-ptrn">
+                        <img src="foto/new0.png" alt="New" class="icono-nuevo2" id="icono-nv">
+                        <img src="pseudoelementos/produccion.png" alt="produccion" id="produccion1">
+                    </figure>
+
+                    <figure class="fgr-ptrn" id="fgr2"> 
+                        <figcaption class="figcap-prtn">Sakura (Naruto)</figcaption>
+                        <img src="pseudoelementos/mujer.png" alt="Sakura" class="img-ptrn">
+                        <img src="pseudoelementos/produccion2.png" alt="produccion" id="produccion2">
+                    </figure>
+
+                    <figure class="fgr-ptrn" id="fgr3"> 
+                        <figcaption class="figcap-prtn">Bla Blablabla (BL)</figcaption>
+                        <img src="pseudoelementos/mas3.png" alt="Ann Takami" class="img-ptrn">
+                        <img src="pseudoelementos/produccion3.png" alt="produccion" id="produccion3">
+                    </figure>
+                    <figure class="fgr-ptrn" id="fgr4"> 
+                        <figcaption class="figcap-prtn">More of me</figcaption>
+                        <img src="pseudoelementos/mas1.png" alt="More of me" class="img-ptrn">
+                        <img src="pseudoelementos/produccion4.png" alt="My content" id="produccion4">
+                    </figure>
+
+                </div>
+
+                <div id="objtv-ptr">
+                    <span id="objtv-s">Objetivo: 1100 Patreons!</span>
+                    <p id="objtv-p">Sumate!</p>
+                </div>
+
+        </div>
+
+    </section>
+
+    <section id="cel-sect">
+
+        <div id="cel-sect-contenedor">
+            <div class="div-cel" id="div-dibujo-cel">
+                <h4 class="h4-celu" id=""> Dibujo de la semana</h4>
+                <figure class="fgr-cel-sect" id="fgr-dib-sect"> 
+                    <img src="foto/dibujos-casa.png" alt="dibujo de la semana" id="img-dib-cel">
+                    <figcaption class="figcap-celu" id="figcap-dib-celu"> La casa en la que viví por 12 años ♥ </figcaption>
+                </figure>
+            </div>
+
+            <div class="div-cel" id="div-contenido-cel">
+                <h4 class="h4-celu" id="h4-yt-celu">Youtube Channel</h4>
+                <figure class="fgr-cel-sect" id="fgr-yt-sect"> 
+                    <a href="https://www.youtube.com/watch?v=BrKHko20GLA&t=125s" target="_blank">
+                        <img src="foto/yt.png" alt="new content" id="img-yt-cel">
+                    </a>
+                    <img src="foto/new0.png" alt="New" id="img-new-cel">
+                    <figcaption class="figcap-celu" id="figcap-celu-yt"> Bucarest,<br> buscando un restaurante.</figcaption>
+                </figure>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="pie-pagina">
+        <!--
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="" alt="Logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h4>Professional Contact</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+            </div>
+            <div class="box">
+                <h4>Follow me!</h4>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        -->
+        <div class="grupo-2">
+            <small class="escrito-ftr">&copy; 2023 <b>IFH</b> - Todos los Derechos Reservados.</small>
+             <small class="escrito-ftr"> <br> Si te gustó la página. </small> <b>ifhentshel@gmail.com</b>
+        </div>
+
+    </footer>
+
+    <script src=" https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+
+    <!-- smooth scroll -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 2150, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script> 
+
+</body>
+</html>

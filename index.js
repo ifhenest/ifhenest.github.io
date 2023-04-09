@@ -1,4 +1,4 @@
-// Para que tengas que cerrar el nav. Opción 1:
+/* // Para que tengas que cerrar el nav. Opción 1:
 
 
 const checkBtn = document.querySelector('.checkbtn');
@@ -6,6 +6,8 @@ const checkBtn = document.querySelector('.checkbtn');
 checkBtn.addEventListener('click', function() {
   body.classList.toggle('body-fixed');
 });
+
+*/
 
 /* opción 2,  problema que con esto cuando abrir el nav se mueve todo un poco
 const checkbox = document.getElementById("check");
